@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    
+}
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:url("sayan-nath-tKYWlrVilVg-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+    height:100vh;
+    width:100%;
+}
+body h1{
+    margin-bottom:12px;
+}
+.clock{
+    display: flex;
+    position:relative;
+}
+.clock div{
+    margin-left:5px;
+
+}
+.clock span{
+    background-color: red;
+    height:80px;
+    width:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    text-shadow:2px 4px 4px rgba(0,0,0,0.7);
+}
+.clock .text{
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    /* background-color:green; */
+    height:25px;
+}
+.clock .texter{
+    bottom:0;
+    background-color:green;
+    position:absolute;
+    font-size:20px;
+    width:60px;
+    height: 30px;
+
+}
+
+
+
